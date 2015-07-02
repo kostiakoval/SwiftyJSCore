@@ -40,6 +40,12 @@ class SwiftyJSCoreTest: QuickSpec {
         let a = sContext["a"]
         expect(a.toInt32()) == 10
       }
+      
+      it("set value") {
+        sContext[key: "a"] = 2
+        let a = sContext["a"]
+        expect(a.toInt32()) == 2
+      }
     }
   }
 }

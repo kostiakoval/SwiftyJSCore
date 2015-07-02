@@ -26,11 +26,11 @@ public class SwiftyJSContext {
 
 public extension SwiftyJSContext {
 
-  public subscript (key: AnyObject!) ->  JSValue! {
+  public subscript (key: String!) ->  JSValue! {
     return context.objectForKeyedSubscript(key)
   }
   
-  public subscript(key: NSObject!) -> JSValue! {
+  public subscript(# key: String!) -> AnyObject! {
     get {
       return context.objectForKeyedSubscript(key)
     }
