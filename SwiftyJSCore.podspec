@@ -10,19 +10,17 @@
 Pod::Spec.new do |s|
   s.name             = "SwiftyJSCore"
   s.version          = "0.1.0"
-  s.summary          = "A short description of SwiftyJSCore."
+  s.summary          = "A Swift API for JavaScriptCore"
   s.description      = <<-DESC
-                       An optional longer description of SwiftyJSCore
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                        A nice Sugar addition to the JavaScriptCore to make the API
+                        look nice
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/SwiftyJSCore"
+  s.homepage         = "https://github.com/kostiakoval/SwiftyJSCore"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "Konstantin Koval" => "konstantin@rocketfarm.no" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/SwiftyJSCore.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { "Konstantin Koval" => "konstantin.koval1@gmail.com" }
+  s.source           = { :git => "https://github.com/kostiakoval/SwiftyJSCore.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/kostiakoval'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
